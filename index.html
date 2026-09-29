@@ -3,172 +3,448 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bright Future School</title>
+
+    <title>EduNova International School</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">Bright Future <span>School</span></div>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-inner">
 
-            <ul class="nav-links">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Academics</a></li>
-                <li><a href="#">Admission</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <a href="#" class="logo">
+                <span class="logo-icon">E</span>
+                <div>
+                    <strong>EduNova</strong>
+                    <small>International School</small>
+                </div>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#programs">Programs</a>
+                <a href="#facilities">Facilities</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#" class="nav-btn">Apply Now <span>↗</span></a>
 
             <button class="menu-btn">☰</button>
-        </nav>
+
+        </div>
     </header>
 
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <p class="welcome">WELCOME TO</p>
+    <!-- HERO -->
+    <main>
 
-            <h1>Bright Future <br><span>School</span></h1>
+        <section class="hero">
 
-            <p class="hero-text">
-                Empowering young minds with knowledge, creativity
-                and confidence for a brighter future.
-            </p>
+            <div class="container hero-grid">
 
-            <div class="hero-buttons">
-                <a href="#" class="btn primary">Explore More</a>
-                <a href="#" class="btn secondary">Admission</a>
-            </div>
-        </div>
-    </section>
+                <div class="hero-content">
 
+                    <div class="eyebrow">
+                        <span></span>
+                        WHERE FUTURE BEGINS
+                    </div>
 
-    <!-- Features -->
-    <section class="features">
+                    <h1>
+                        Discover.
+                        <em>Learn.</em>
+                        <br>
+                        Become.
+                    </h1>
 
-        <div class="feature-card">
-            <div class="icon">📚</div>
-            <h3>Quality Education</h3>
-            <p>
-                Modern learning methods and quality education
-                for every student.
-            </p>
-        </div>
+                    <p>
+                        A place where curious minds grow, dreams take
+                        shape, and every student discovers their own
+                        path to greatness.
+                    </p>
 
-        <div class="feature-card">
-            <div class="icon">👨‍🏫</div>
-            <h3>Expert Teachers</h3>
-            <p>
-                Experienced and dedicated teachers who
-                guide students towards success.
-            </p>
-        </div>
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary">
+                            Explore Our School
+                            <span>→</span>
+                        </a>
 
-        <div class="feature-card">
-            <div class="icon">🏆</div>
-            <h3>Great Achievements</h3>
-            <p>
-                Encouraging students to achieve excellence
-                in academics and activities.
-            </p>
-        </div>
+                        <a href="#" class="watch-btn">
+                            <span class="play">▶</span>
+                            Take a Virtual Tour
+                        </a>
+                    </div>
 
-    </section>
+                    <div class="hero-stats">
 
+                        <div>
+                            <strong>25+</strong>
+                            <span>Years of Excellence</span>
+                        </div>
 
-    <!-- About Preview -->
-    <section class="about">
-        <div class="about-image">
-            <div class="image-box">
-                🏫
-            </div>
-        </div>
+                        <div>
+                            <strong>2,500+</strong>
+                            <span>Happy Students</span>
+                        </div>
 
-        <div class="about-content">
-            <p class="section-title">ABOUT OUR SCHOOL</p>
+                        <div>
+                            <strong>98%</strong>
+                            <span>University Success</span>
+                        </div>
 
-            <h2>Building a Better <span>Future</span></h2>
+                    </div>
 
-            <p>
-                Bright Future School provides a safe, friendly and
-                inspiring environment where students can learn,
-                grow and discover their talents.
-            </p>
-
-            <p>
-                Our goal is to develop responsible, confident and
-                creative individuals through quality education.
-            </p>
-
-            <a href="#" class="btn primary">Read More</a>
-        </div>
-    </section>
+                </div>
 
 
-    <!-- Notice Section -->
-    <section class="notice-section">
+                <div class="hero-visual">
 
-        <div class="notice">
-            <h2>📢 Latest Notices</h2>
+                    <div class="image-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85"
+                            alt="Students in classroom"
+                        >
 
-            <div class="notice-item">
-                <span>25 Sep</span>
-                <p>Annual Examination Schedule Released</p>
-            </div>
+                        <div class="image-overlay">
+                            <span>✦</span>
+                            Inspiring minds,<br>
+                            shaping futures.
+                        </div>
+                    </div>
 
-            <div class="notice-item">
-                <span>20 Sep</span>
-                <p>Parent Teacher Meeting</p>
+                    <div class="floating-card">
+                        <div class="avatar-group">
+                            <span>👩🏻</span>
+                            <span>👨🏻</span>
+                            <span>👩🏽</span>
+                            <span>+</span>
+                        </div>
+
+                        <div>
+                            <strong>2,500+</strong>
+                            <small>Students learning</small>
+                        </div>
+                    </div>
+
+                    <div class="circle-decoration"></div>
+
+                </div>
+
             </div>
 
-            <div class="notice-item">
-                <span>15 Sep</span>
-                <p>Inter-School Sports Competition</p>
+        </section>
+
+
+        <!-- TRUST BAR -->
+
+        <section class="trust">
+            <div class="container trust-inner">
+
+                <p>Trusted by families since 1999</p>
+
+                <div class="trust-items">
+                    <span>✦ ACADEMIC EXCELLENCE</span>
+                    <span>✦ GLOBAL LEARNING</span>
+                    <span>✦ FUTURE READY</span>
+                    <span>✦ STUDENT FIRST</span>
+                </div>
+
             </div>
-        </div>
-
-        <div class="welcome-box">
-            <h2>Admissions Open</h2>
-            <p>
-                Admissions are now open for the new academic session.
-            </p>
-            <a href="#" class="btn secondary">Apply Now</a>
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- Footer -->
+        <!-- ABOUT -->
+
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=85"
+                        alt="School campus"
+                    >
+
+                    <div class="experience">
+                        <strong>25</strong>
+                        <span>Years of<br>Excellence</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <span class="section-label">ABOUT EDUNOVA</span>
+
+                    <h2>
+                        Education that goes
+                        <em>beyond</em> the classroom.
+                    </h2>
+
+                    <p>
+                        We believe education isn't just about grades.
+                        It's about developing confident thinkers,
+                        compassionate leaders and lifelong learners.
+                    </p>
+
+                    <p>
+                        Our vibrant learning environment combines
+                        academic excellence with creativity, sports,
+                        technology and real-world experiences.
+                    </p>
+
+                    <a href="#" class="text-link">
+                        Discover our story →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROGRAMS -->
+
+        <section class="programs section" id="programs">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">OUR PROGRAMS</span>
+
+                        <h2>
+                            Learning designed for
+                            <em>every stage.</em>
+                        </h2>
+                    </div>
+
+                    <p>
+                        From curious beginnings to confident futures,
+                        our programs help every learner thrive.
+                    </p>
+
+                </div>
+
+
+                <div class="program-grid">
+
+                    <article class="program-card purple">
+                        <div class="program-number">01</div>
+                        <span class="program-icon">🌱</span>
+
+                        <h3>Early Years</h3>
+
+                        <p>
+                            Ages 3–6 · Play-based learning,
+                            creativity and discovery.
+                        </p>
+
+                        <a href="#">Learn more →</a>
+                    </article>
+
+
+                    <article class="program-card orange">
+                        <div class="program-number">02</div>
+                        <span class="program-icon">🔬</span>
+
+                        <h3>Primary School</h3>
+
+                        <p>
+                            Ages 6–11 · Building strong foundations
+                            through curiosity.
+                        </p>
+
+                        <a href="#">Learn more →</a>
+                    </article>
+
+
+                    <article class="program-card dark">
+                        <div class="program-number">03</div>
+                        <span class="program-icon">🚀</span>
+
+                        <h3>Senior School</h3>
+
+                        <p>
+                            Ages 11–18 · Preparing students
+                            for a world of possibilities.
+                        </p>
+
+                        <a href="#">Learn more →</a>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FACILITIES -->
+
+        <section class="facilities section" id="facilities">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <span class="section-label">WHY EDUNOVA</span>
+
+                    <h2>
+                        More than a school.
+                        <em>A community.</em>
+                    </h2>
+
+                    <p>
+                        Everything your child needs to learn,
+                        explore and flourish.
+                    </p>
+
+                </div>
+
+
+                <div class="facility-grid">
+
+                    <div class="facility">
+                        <span>01</span>
+                        <div>
+                            <h3>Modern Campus</h3>
+                            <p>Purpose-built spaces designed for learning.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility">
+                        <span>02</span>
+                        <div>
+                            <h3>Smart Classrooms</h3>
+                            <p>Technology-powered interactive learning.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility">
+                        <span>03</span>
+                        <div>
+                            <h3>Sports Academy</h3>
+                            <p>Professional coaching and world-class facilities.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility">
+                        <span>04</span>
+                        <div>
+                            <h3>Creative Studios</h3>
+                            <p>Music, art, theatre and creative expression.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ADMISSION CTA -->
+
+        <section class="admission" id="contact">
+
+            <div class="container admission-inner">
+
+                <div>
+                    <span class="section-label">ADMISSIONS 2026–27</span>
+
+                    <h2>
+                        Your child's journey
+                        <em>starts here.</em>
+                    </h2>
+
+                    <p>
+                        Come visit us, meet our community and discover
+                        what makes EduNova different.
+                    </p>
+                </div>
+
+                <div class="admission-buttons">
+                    <a href="#" class="btn btn-light">
+                        Book a Visit →
+                    </a>
+
+                    <a href="#" class="btn btn-outline">
+                        View Admissions
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
     <footer>
-        <div class="footer-content">
+
+        <div class="container footer-grid">
 
             <div>
-                <h2>Bright Future School</h2>
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-icon">E</span>
+                    <div>
+                        <strong>EduNova</strong>
+                        <small>International School</small>
+                    </div>
+                </a>
+
                 <p>
-                    Education for a brighter tomorrow.
+                    Inspiring curious minds to create a
+                    better tomorrow.
                 </p>
             </div>
 
             <div>
-                <h3>Contact</h3>
-                <p>📍 Lucknow, Uttar Pradesh</p>
-                <p>📞 +91 98765 43210</p>
-                <p>✉️ info@brightfuture.com</p>
+                <h4>Explore</h4>
+                <a href="#">About Us</a>
+                <a href="#">Programs</a>
+                <a href="#">Admissions</a>
+                <a href="#">Campus Life</a>
+            </div>
+
+            <div>
+                <h4>Connect</h4>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+                <a href="#">LinkedIn</a>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>123 Education Avenue</p>
+                <p>New Delhi, India</p>
+                <p>hello@edunova.school</p>
             </div>
 
         </div>
 
-        <div class="copyright">
-            © 2026 Bright Future School. All Rights Reserved.
+        <div class="container copyright">
+            © 2026 EduNova International School.
+            All rights reserved.
         </div>
+
     </footer>
 
 
     <script src="script.js"></script>
+
 </body>
 </html>
